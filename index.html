@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+    <style>
+        /* Add your custom styles here *//* About Section */
+/* About Section */
+/* About Section */
+#about {
+    background-color: #f6ad55; /* Light orange background color */
+    transition: transform 0.5s ease;
+}
+
+#about:hover {
+    transform: scale(1.05);
+    background-color: #fde68a; /* Light yellow background color on hover */
+}
+
+/* Services Section */
+#services {
+    background-color: #68d391; /* Light green background color */
+    transition: transform 0.5s ease;
+}
+
+#services:hover {
+    transform: scale(1.05);
+    background-color: #9ae6b4; /* Light greenish background color on hover */
+}
+
+/* Projects Section */
+#projects {
+    background-color: #9f7aea; /* Light purple background color */
+    transition: transform 0.5s ease;
+}
+
+#projects:hover {
+    transform: scale(1.05);
+    background-color: #d6bcfa; /* Light purple background color on hover */
+}
+
+/* Contact Me Section */
+#contact {
+    background-color: #4c66bc; /* Light blue background color */
+    transition: transform 0.5s ease;
+}
+
+#contact:hover {
+    transform: scale(1.05);
+    background-color: #6e0bf0; /* Light blue background color on hover */
+}
+
+
+
+
+
+    </style>
+     <style>
+        .resume-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-blue-500 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white font-bold text-lg"><i>Welcome To My Website</i></a>
+            <button id="toggleNav"
+                class="md:hidden text-white focus:outline-none focus:bg-blue-600 rounded-lg p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+            <ul id="navMenu"
+                class="md:flex md:items-center hidden space-x-4 font-semibold text-lg text-white uppercase">
+                <li><a href="#about"><i>About</i></a></li>
+        
+                <li><a href="#My Services"><i>My Services</i></a></li>
+                <li><a href="#contact"><i>Contact</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-gray-800 text-white py-20 px-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold mb-4"><i>ANAND KUMAR JHA</i></h1>
+            <p class="text-lg"><i>I'm a passionate computer teacher ready to share knowledge and inspire students.</i></p>
+            <a href="#contact"
+                class="mt-6 inline-block bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-lg"><i>Contact
+                Me</i></a>
+                <a href="anand.pdf" class="resume-button" download>Download Resume</a>
+        </div>
+    </header>
+
+   
+    
+<!-- About Section -->
+<section id="about" class="py-20 bg-gray-100">
+    <div class="container mx-auto">
+        <h2 class="text-4xl font-bold mb-8 text-center text-gray-800"><i>About Me</i></h2>
+        <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-12">
+            <img src="anand ji.jpg" alt="Profile" class="w-64 h-64 object-cover rounded-full shadow-md">
+            <div>
+                <p class="text-lg leading-relaxed text-gray-700 font-serif italic">
+                    Welcome!I am Anand Kumar Jha, currently pursuing my MCA degree from Kurukshetra University. Additionally, I hold a BCA degree from R.N. College. As a computer teacher, I am deeply passionate about sharing knowledge with students. My aim is to inspire and empower them to navigate the digital world with confidence. With a strong educational background and a love for teaching, I am committed to fostering a conducive learning environment where students can thrive.
+
+
+
+
+
+
+                </p> 
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center"><i>My Services</i></h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-white rounded-lg p-6 shadow-md">
+                    <h3 class="text-xl font-semibold mb-4"><i>Programming Language Tutoring</i></h3>
+                    <p class="text-lg">I offer personalized tutoring sessions to help students learn programming
+                        languages like Python, JavaScript and more.</p>
+                </div>
+                <!-- Service Card 2 -->
+                <div class="bg-white rounded-lg p-6 shadow-md">
+                    <h3 class="text-xl font-semibold mb-4"><i>Computer Applications Training</i></h3>
+                    <p class="text-lg"><i>I provide comprehensive training on various computer applications including
+                        Microsoft Office Suite, Adobe Creative Suite, and more.</i></p>
+                </div>
+                <!-- Service Card 3 -->
+                <div class="bg-white rounded-lg p-6 shadow-md">
+                    <h3 class="text-xl font-semibold mb-4"><i>Problem Solving Workshops</i></h3>
+                    <p class="text-lg"><i>I conduct workshops focusing on problem-solving techniques and algorithmic
+                        thinking to prepare students for coding competitions and real-world challenges.</i></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+ 
+<!-- Contact Section -->
+<section id="contact" class="py-20 bg-gray-800 text-white">
+    <div class="container mx-auto">
+        <h2 class="text-4xl font-bold mb-8 text-center"><i>Contact Me</i></h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <h3 class="text-2xl font-semibold mb-4 text-blue-400"><i>Get in Touch</i></h3>
+                <p class="text-lg text-gray-300"><i>Interested in my services or have any questions? Reach out to me through the following channels:</i></p>
+                <ul class="mt-4">
+                    <li class="mb-2 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                        </svg>
+                        <a href="https://www.linkedin.com/in/anand-kumar-419a1b2ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-blue-400 hover:text-blue-600">LinkedIn</a>
+                    </li>
+                    <li class="mb-2 flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                        <a href="https://github.com/Anandkumarjha001" class="text-blue-400 hover:text-blue-600">GitHub</a>
+                    </li>
+                    <li class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                        <a href="https://mail.google.com/mail/u/0/#search/jha72566%40gmail.com" class="text-blue-400 hover:text-blue-600" >jha72566@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
